@@ -28,7 +28,7 @@ namespace TestDugga.Test
         {
             // Arrange
             string value = "1m";
-            long expected = 1000;
+            long expected = 1000000;
             long actual;
 
             // Act
@@ -43,7 +43,7 @@ namespace TestDugga.Test
         {
             // Arrange
             string value = "1b";
-            long expected = 1000;
+            long expected = 1000000000;
             long actual;
 
             // Act
@@ -58,7 +58,7 @@ namespace TestDugga.Test
         {
             // Arrange
             string value = "1t";
-            long expected = 1000;
+            long expected = 1000000000000;
             long actual;
 
             // Act
