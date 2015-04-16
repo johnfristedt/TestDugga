@@ -21,10 +21,8 @@ namespace NumberUtilities
             // Find out if the trimmed input contains any letters
             // Return default output if true
             foreach (var c in inputTrimmed)
-            {
                 if (char.IsLetter(c))
                     return output;
-            }
 
             // If last input char is a number, return the input number
             if (char.IsNumber(input.Last()))
