@@ -15,7 +15,7 @@ namespace NumberUtilities
                 return output;
 
             input = input.ToLower();
-            char[] acceptedShorthand = { 'k', 'm', 't', 'b' };
+            char[] acceptedShorthand = { 'k', 'm', 'b', 't' };
             string inputTrimmed = input.Remove(input.Length - 1);
 
             // Find out if the trimmed input contains any letters
