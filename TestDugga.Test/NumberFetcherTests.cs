@@ -1,5 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NumberUtilities;
+
 
 namespace TestDugga.Test
 {
@@ -11,8 +13,8 @@ namespace TestDugga.Test
         {
             // Arrange
             string value = "1k";
-            int expected = 1000;
-            int actual;
+            long expected = 1000;
+            long actual;
 
             // Act
             actual = NumberFetcher.Fetch(value);
@@ -26,8 +28,8 @@ namespace TestDugga.Test
         {
             // Arrange
             string value = "1m";
-            int expected = 1000;
-            int actual;
+            long expected = 1000;
+            long actual;
 
             // Act
             actual = NumberFetcher.Fetch(value);
@@ -41,8 +43,8 @@ namespace TestDugga.Test
         {
             // Arrange
             string value = "1b";
-            int expected = 1000;
-            int actual;
+            long expected = 1000;
+            long actual;
 
             // Act
             actual = NumberFetcher.Fetch(value);
@@ -56,8 +58,8 @@ namespace TestDugga.Test
         {
             // Arrange
             string value = "1t";
-            int expected = 1000;
-            int actual;
+            long expected = 1000;
+            long actual;
 
             // Act
             actual = NumberFetcher.Fetch(value);
@@ -71,8 +73,8 @@ namespace TestDugga.Test
         {
             // Arrange
             string value = "100";
-            int expected = 100;
-            int actual;
+            long expected = 100;
+            long actual;
 
             // Act
             actual = NumberFetcher.Fetch(value);
@@ -86,8 +88,8 @@ namespace TestDugga.Test
         {
             // Arrange
             string value = "k";
-            int expected = 1000;
-            int actual;
+            long expected = 1000;
+            long actual;
 
             // Act
             actual = NumberFetcher.Fetch(value);
@@ -101,8 +103,8 @@ namespace TestDugga.Test
         {
             // Arrange
             string value = "1o";
-            int expected = -1;
-            int actual;
+            long expected = -1;
+            long actual;
 
             // Act
             actual = NumberFetcher.Fetch(value);
@@ -115,8 +117,8 @@ namespace TestDugga.Test
         {
             // Arrange
             string value = "1kk";
-            int expected = -1;
-            int actual;
+            long expected = -1;
+            long actual;
 
             // Act
             actual = NumberFetcher.Fetch(value);
@@ -129,8 +131,8 @@ namespace TestDugga.Test
         {
             // Arrange
             string value = "1k1";
-            int expected = -1;
-            int actual;
+            long expected = -1;
+            long actual;
 
             // Act
             actual = NumberFetcher.Fetch(value);

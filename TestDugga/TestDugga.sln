@@ -5,7 +5,9 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDugga", "TestDugga.csproj", "{0F4953B6-2A43-4153-9BEB-C3C9E7DADC28}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDugga.Test", "..\TestDugga.Test\TestDugga.Test.csproj", "{448ECDA0-60CE-41F5-A27A-98028F3CE2AB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberUtilities.Test", "..\TestDugga.Test\NumberUtilities.Test.csproj", "{448ECDA0-60CE-41F5-A27A-98028F3CE2AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberUtilities", "NumberUtilities\NumberUtilities.csproj", "{028FE6BD-55F6-4E2D-AC20-A4EB9B26A6EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{448ECDA0-60CE-41F5-A27A-98028F3CE2AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{448ECDA0-60CE-41F5-A27A-98028F3CE2AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{448ECDA0-60CE-41F5-A27A-98028F3CE2AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{028FE6BD-55F6-4E2D-AC20-A4EB9B26A6EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{028FE6BD-55F6-4E2D-AC20-A4EB9B26A6EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{028FE6BD-55F6-4E2D-AC20-A4EB9B26A6EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{028FE6BD-55F6-4E2D-AC20-A4EB9B26A6EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
